@@ -105,6 +105,15 @@ function Calender  ()  {const [events, setEvents] = useState([
   return (
     <div>
           <main className="flex min-h-screen flex-col ml-80 items-center justify-between mt-10">
+
+          <p className="text-lg font-semibold mb-2">Welcome to the Calendar App</p>
+
+          <img
+          src="https://img.freepik.com/premium-vector/lifebased-content-content-strategy-development-social-media-content_277904-18578.jpg?w=1060" // Replace with the path to your image
+          alt="Image Description"
+          className="w-64 h-64 mb-4" // Customize the width, height, and margin as needed
+        />
+
         <div className="grid grid-cols-10">
           <div className="col-span-8">
             <FullCalendar
